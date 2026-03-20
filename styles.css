@@ -1,0 +1,41 @@
+/* styles.css for WDD130 Home Page */
+
+/* Limit the main content width and center it */
+main {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+/* Style the aside section for your state/country */
+aside {
+  width: 280px;
+  margin: 15px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #f0f0f0;
+  color: black;
+}
+
+/* Resize the image inside aside */
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+/* Resize profile image in main */
+main img {
+  width: 150px;
+  height: auto;
+}
+
+/* Remove padding from paragraphs */
+p {
+  padding: 0;
+}
+
+/* Style footer to separate it and center text */
+footer {
+  margin-top: 20px;
+  border-top: 2px solid #ccc;
+  text-align: center;
+}
