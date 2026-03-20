@@ -39,3 +39,31 @@ footer {
   border-top: 2px solid #ccc;
   text-align: center;
 }
+/* --- Your existing CSS above --- */
+
+/* Existing footer, etc. */
+
+/* --- ADD THESE RULES AT THE END --- */
+nav {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+nav a {
+  color: #333;
+  padding: 5px 10px;
+  display: block;
+  text-decoration: none;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+main img {
+  width: 150px;
+  height: auto;
+  border: 2px solid #ccc;
+  padding: 5px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
